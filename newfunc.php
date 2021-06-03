@@ -1,6 +1,7 @@
 <?php
 // session_start();
-$con=mysqli_connect("localhost","root","","myhmsdb");
+// $con=mysqli_connect("localhost","root","","myhmsdb");
+$con=mysqli_connect("mysql-33357-0.cloudclusters.net","root","testtest","myhmsdb");
 // if(isset($_POST['submit'])){
 //  $username=$_POST['username'];
 //  $password=$_POST['password'];
