@@ -2,7 +2,7 @@
 <?php 
 include('func1.php');
 // $con=mysqli_connect("localhost","root","","myhmsdb");
-$con=mysqli_connect("mysql-33357-0.cloudclusters.net","root","testtest","myhmsdb");
+$con=mysqli_connect("mysql-33357-0.cloudclusters.net:33357","admin","PbyNY7fd","myhmsdb");
 $doctor = $_SESSION['dname'];
 if(isset($_GET['cancel']))
   {

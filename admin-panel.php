@@ -3,7 +3,7 @@
 include('func.php');  
 include('newfunc.php');
 // $con=mysqli_connect("localhost","root","","myhmsdb");
-$con=mysqli_connect("mysql-33357-0.cloudclusters.net","root","testtest","myhmsdb");
+$con=mysqli_connect("mysql-33357-0.cloudclusters.net:33357","admin","PbyNY7fd","myhmsdb");
 
 
   $pid = $_SESSION['pid'];

@@ -1,7 +1,7 @@
 <?php
 session_start();
 // $con=mysqli_connect("localhost","root","","myhmsdb");
-$con=mysqli_connect("mysql-33357-0.cloudclusters.net","root","testtest","myhmsdb");
+$con=mysqli_connect("mysql-33357-0.cloudclusters.net:33357","admin","PbyNY7fd","myhmsdb");
 if(isset($_POST['patsub1'])){
 	$fname=$_POST['fname'];
   $lname=$_POST['lname'];
